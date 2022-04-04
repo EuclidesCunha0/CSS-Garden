@@ -7,6 +7,14 @@ body{
     padding: 15px;
 }
 
+p, h1, h2, h3 {
+    width: 100%;
+}
+
+.page-wrapper {
+    width: 100%;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -76,8 +84,8 @@ span{
 
 p{
     line-height: 20px;
-    max-width: 500px;
     font-family: poppinslight;
+    text-align: justify;
 }
 
 img{
